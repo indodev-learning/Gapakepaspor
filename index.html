@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <title>Kementrian Pariwisata</title>
+</head>
+<body>
+    
+    <div class="mobile-menu">
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="#winner">Leaderboard</a></li>
+        <li><a href="#video">Video</a></li>
+        <li><a href="">Destination</a></li>
+      </ul>
+    </div>
+    
+    <button type="button" class="toggle-menu visible-xs" aria-label="Toggle Mobile Menu">
+      <span class="burger-lines"></span>
+    </button>
+    
+    <div class="page-container">
+    
+    <!-- ======================================== Start Popup Section ======================================== !-->
+    <div id="konfirmasi">
+        <div class="popup-layout">
+            <a href="#" class="close" title="close">X</a>
+
+            <div class="pop-wrap">
+                <div class="popup-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Maecenas fermentum ante et sapien dignissim in viverra magna feugiat.
+                    Donec tempus ipsum nec neque dignissim quis eleifend eros gravida.
+                </div>
+
+                <div class="number">
+                    <ul>
+                        <li>X</li>
+                        <li>X</li>
+                        <li>X</li>
+                        <li>X</li>
+                        <li>X</li>
+                        <li>X</li>
+                    </ul>
+                </div>
+
+                <button class="submit">Kirim</button>
+
+                <div class="clear-100"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="dataDiri">
+        <div class="popup-layout">
+            <a href="#" class="close" title="close">X</a>
+
+            <div class="pop-wrap-2">
+                <div class="your-profile">
+                    <div class="imgp">
+                        <img src="assets/img/profile/profile1.png" alt="profile">
+                    </div>
+                    <p class="thename">Arif Rahman</p>
+                    <p class="location">Jakarta, Indonesia</p>
+                </div>
+
+                <form action="#" method="post">
+                    <input type="text" name="nama" class="input" placeholder="Nama">
+                    <input type="text" name="phone" class="input" placeholder="Nomor Telepon">
+                    <input type="text" name="city" class="input" placeholder="Kota">
+
+                    <input type="submit" class="submit full" value="Kirim">
+                </form>
+
+                <div class="clear-60"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="result">
+        <div class="popup-layout">
+            <a href="#" class="close" title="close">X</a>
+
+            <div class="pop-wrap">
+                <div class="popup-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Maecenas fermentum ante et sapien dignissim in viverra magna feugiat.
+                    Donec tempus ipsum nec neque dignissim quis eleifend eros gravida.
+                </div>
+
+                <div class="text-p">
+                    
+                    <p>Presentase Kamu</p>
+
+                    <div class="large">
+                    70%
+                    </div>
+                </div>
+
+                <button class="submit">Lihat Peringkat</button>
+
+                <div class="clear-100"></div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- ======================================== End Popup Section ======================================== !-->
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="grid col-3 logo-layout">
+                    <a href="" class="logo">
+                        <img src="assets/img/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="grid col-9">
+                    <nav>
+                    
+                        <ul id="nav">
+                            <li><a href="">Home</a></li>
+                            <li><a href="#winner">Leaderboard</a></li>
+                            <li><a href="#video">Video</a></li>
+                            <li><a href="">Destination</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+<!--
+                <div class="menu-hide">
+                    <div class="ins" onclick="openNav()">
+                        <img src="assets/img/list.png" alt="menu"/>
+                    </div>
+                </div>
+-->
+
+                <div class="grid col-12 ">
+                    <div class="welcome">
+                        <img src="assets/img/welcome.png" alt="welcome"/>
+                    </div>
+                    <div class="welcome-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</br>
+                        Maecenas fermentum ante et sapien dignissim in viverra magna feugiat.
+                        Donec tempus ipsum nec neque dignissim quis eleifend eros gravida. </p>
+                    </div>
+
+                    <div id="front">
+                        <ul>
+                            <li>X</li>
+                            <li>X</li>
+                            <li>X</li>
+                            <li>X</li>
+                            <li>X</li>
+                            <li>X</li>
+                        </ul>
+                        <button class="submits">SUBMIT</button> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- ======================================== Start Winner Section ======================================== !-->
+    <div id="winner"></div>
+    <section class="winner">
+        <div class="container">
+            <div class="row">
+                <div class="grid col-12">
+                    <div class="long-line"></div>
+                    <div class="title">Pemenang</div>
+                    <div class="long-line"></div>
+                </div>
+
+                <div class="grid col-12">
+                    <div class="body-section wins">
+                        <div class="grid col-4 juara">
+                            <div class="pemenang">
+                                <div class="photo">
+                                    <img src="assets/img/profile/profile1.png" alt="profile"/>
+                                </div>
+                                <div class="week">Pemenang Minggu Pertama</div>
+                                <div class="name">Arif Rahmat</div>
+                            </div>
+                        </div>
+                        <div class="grid col-4 juara">
+                            <div class="pemenang">
+                                <div class="photo">
+                                    <img src="assets/img/profile/none.png" alt="profile"/>
+                                </div>
+                                <div class="week">Pemenang Minggu Pertama</div>
+                                <div class="name">-</div>
+                            </div>
+                        </div>
+                        <div class="grid col-4 juara">
+                            <div class="pemenang">
+                                <div class="photo">
+                                    <img src="assets/img/profile/none.png" alt="profile"/>
+                                </div>
+                                <div class="week">Pemenang Minggu Pertama</div>
+                                <div class="name">-</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid col-12">
+                    <div class="body-section">
+                        <div class="grid col-6 nopad-left three">
+                            <div class="highlight-peserta">
+                                <div class="title-highlight">3 Peserta Teratas</div>
+                                <div class="body-highlight">
+                                    <div class="list-peserta">
+                                        <div style="width:5%;" class="tabling">1.</div>
+                                        <div style="width:20%;" class="tabling">
+                                            <div class="high-image">
+                                                <img src="assets/img/profile/profile_03.png" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div style="width:52%;" class="tab-img">
+                                            
+                                            <table width="100%" class="inner-table">
+                                                <tr>
+                                                    <td style="width:33%;">Nama</td>
+                                                    <td style="width:5%;">:</td>
+                                                    <td><span class="high-text">Dewi Hastuti</span>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Tebakan Nomor</td>
+                                                    <td style="width:5%;">:</td>
+                                                    <td><span class="high-text">9 - 7 - 5 - 8 - 0 - 6</span>
+                                                </tr>
+                                            </table>
+                                            
+                                        </div>
+                                       <div style="width:23%; " class="tabling">
+                                            <div class="grid col-3 high-percent">
+                                                <p>Persentase</p>
+
+                                                <span class="large">84%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="list-peserta">
+                                        <div style="width:5%;" class="tabling">2.</div>
+                                        <div style="width:20%;" class="tabling">
+                                            <div class="high-image">
+                                                <img src="assets/img/profile/profile_01.png" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div style="width:52%;" class="tab-img">
+                                            
+                                            <table width="100%" class="inner-table">
+                                                <tr>
+                                                    <td style="width:33%;">Nama</td>
+                                                    <td style="width:5%;">:</td>
+                                                    <td><span class="high-text">Ramon Perwira</span>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Tebakan Nomor</td>
+                                                    <td style="width:5%;">:</td>
+                                                    <td><span class="high-text">9 - 7 - 5 - 8 - 0 - 6</span>
+                                                </tr>
+                                            </table>
+                                            
+                                        </div>
+                                       <div style="width:23%; " class="tabling">
+                                            <div class="grid col-3 high-percent">
+                                                <p>Persentase</p>
+
+                                                <span class="large">70%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="list-peserta">
+                                        <div style="width:5%;" class="tabling">3.</div>
+                                        <div style="width:20%;" class="tabling">
+                                            <div class="high-image">
+                                                <img src="assets/img/profile/profile_06.png" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div style="width:52%;" class="tab-img">
+                                            
+                                            <table width="100%" class="inner-table">
+                                                <tr>
+                                                    <td style="width:33%;">Nama</td>
+                                                    <td style="width:5%;">:</td>
+                                                    <td><span class="high-text">Wulan Dari</span>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Tebakan Nomor</td>
+                                                    <td style="width:5%;">:</td>
+                                                    <td><span class="high-text">9 - 7 - 5 - 8 - 0 - 6</span>
+                                                </tr>
+                                            </table>
+                                            
+                                        </div>
+                                       <div style="width:23%; " class="tabling">
+                                            <div class="grid col-3 high-percent">
+                                                <p>Persentase</p>
+
+                                                <span class="large">55%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="grid col-6 nopad-right three">
+                            <div class="highlight-peserta">
+                                <div class="title-highlight">3 Peserta Terbaru</div>
+                                <div class="body-highlight">
+                                    <div class="list-peserta">
+                                        <div style="width:5%;" class="tabling">23.</div>
+                                        <div style="width:20%;" class="tabling">
+                                            <div class="high-image">
+                                                <img src="assets/img/profile/profile_02.png" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div style="width:52%;" class="tab-img">
+                                            
+                                            <table width="100%" class="inner-table">
+                                                <tr>
+                                                    <td style="width:33%;">Nama</td>
+                                                    <td style="width:5%;">:</td>
+                                                    <td><span class="high-text">Ricky Maryo</span>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Tebakan Nomor</td>
+                                                    <td style="width:5%;">:</td>
+                                                    <td><span class="high-text">9 - 7 - 5 - 8 - 0 - 6</span>
+                                                </tr>
+                                            </table>
+                                            
+                                        </div>
+                                       <div style="width:23%; " class="tabling">
+                                            <div class="grid col-3 high-percent">
+                                                <p>Persentase</p>
+
+                                                <span class="large">50%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="list-peserta">
+                                        <div style="width:5%;" class="tabling">54.</div>
+                                        <div style="width:20%;" class="tabling">
+                                            <div class="high-image">
+                                                <img src="assets/img/profile/profile_04.png" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div style="width:52%;" class="tab-img">
+                                            
+                                            <table width="100%" class="inner-table">
+                                                <tr>
+                                                    <td style="width:33%;">Nama</td>
+                                                    <td style="width:5%;">:</td>
+                                                    <td><span class="high-text">Cindy Pertiwi</span>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Tebakan Nomor</td>
+                                                    <td style="width:5%;">:</td>
+                                                    <td><span class="high-text">9 - 7 - 5 - 8 - 0 - 6</span>
+                                                </tr>
+                                            </table>
+                                            
+                                        </div>
+                                       <div style="width:23%; " class="tabling">
+                                            <div class="grid col-3 high-percent">
+                                                <p>Persentase</p>
+
+                                                <span class="large">45%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="list-peserta">
+                                        <div style="width:5%;" class="tabling">76.</div>
+                                        <div style="width:20%;" class="tabling">
+                                            <div class="high-image">
+                                                <img src="assets/img/profile/profile_05.png" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div style="width:52%;" class="tab-img">
+                                            
+                                            <table width="100%" class="inner-table">
+                                                <tr>
+                                                    <td style="width:33%;">Nama</td>
+                                                    <td style="width:5%;">:</td>
+                                                    <td><span class="high-text">Reza Hermawan</span>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Tebakan Nomor</td>
+                                                    <td style="width:5%;">:</td>
+                                                    <td><span class="high-text">9 - 7 - 5 - 8 - 0 - 6</span>
+                                                </tr>
+                                            </table>
+                                            
+                                        </div>
+                                       <div style="width:23%; " class="tabling">
+                                            <div class="grid col-3 high-percent">
+                                                <p>Persentase</p>
+
+                                                <span class="large">32%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class="see-more">
+            <a href="#" class="see-more-btn">See More</a>
+        </div>
+    <!-- ======================================== Finish Winner Section ======================================== !-->
+
+
+    <!-- ======================================== Start Video Section ======================================== !-->
+    <div class="clear-section"></div>
+    <div id="video"></div>
+
+        <div class="container">
+            <div class="row">
+                <div class="grid col-12">
+                    <div class="long-line"></div>
+                    <div class="title">Video</div>
+                    <div class="long-line"></div>
+                </div>
+
+                <div class="grid col-12" id="slider">
+                    <div class="grid col-9 nopad-right-2 left-slide">
+                        <figure>
+                            <img src="assets/img/slide/slide1.png" alt="slide">
+                            <figcaption>
+                                <div class="slide-title">#GakPakePaspor</div>
+                                <div class="slide-desc">Luncur-luncur asik</div>
+                                <a href="#" class="slide-play">
+                                    <div class="play-vid normal"></div> <div class="pla">Play Video</div>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="grid col-3 nopad-left-2 right-slide">
+                        <figure>
+                            <img src="assets/img/slide/img2.png" alt="slide">
+                            <figcaption>
+                                <div class="slide-title">Video Profile</div>
+                                <div class="slide-desc">Stephanie</div>
+                                <a href="#" class="slide-play">
+                                    <div class="play-vid small"></div> <div class="pla">Play Video</div>
+                                </a>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="assets/img/slide/img1.png" alt="slide">
+                            <figcaption>
+                                <div class="slide-title">Video Profile</div>
+                                <div class="slide-desc">Alessia</div>
+                                <a href="#" class="slide-play">
+                                    <div class="play-vid small"></div> <div class="pla">Play Video</div>
+                                </a>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="assets/img/slide/img3.png" alt="slide">
+                            <figcaption>
+                                <div class="slide-title">Video Profile</div>
+                                <div class="slide-desc">Andrea</div>
+                                <a href="#" class="slide-play">
+                                    <div class="play-vid small"></div> <div class="pla">Play Video</div>
+                                </a>
+                            </figcaption>
+                        </figure>
+                        <figure class="last">
+                            <img src="assets/img/slide/img2.png" alt="slide">
+                            <div class="arrow"></div>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ======================================== End Video Section ======================================== !-->
+
+    <!-- ======================================== Start Footer Section ======================================== !-->
+    <div class="wave"></div>
+    <footer>
+         <div class="container">
+            <div class="row">
+                <div class="grid col-12">
+                    <div class="long-line"></div>
+                    <div class="title">Featured</div>
+                    <div class="long-line"></div>
+                </div>
+
+                <div class="grid col-12">
+                    <div id="featured">
+
+                        <div class="grid col-4 foot">
+                            <div class="content">
+                                <figure>
+                                    <img src="assets/img/content/img11.png" alt="content">
+                                </figure>
+                                <div class="description">
+                                    <p class="content-title">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing #GaPakePasspor
+                                    </p>
+
+                                    <p>
+                                        Lorem ipsum dolor sit amet, nobis laoreet appareat vis et, in aperiam vulputate nam. Harum malorum omittam no ius, eros autem
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid col-4 foot">
+                            <div class="content">
+                                <figure>
+                                    <img src="assets/img/content/img12.png" alt="content">
+                                </figure>
+                                <div class="description">
+                                    <p class="content-title">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing #GaPakePasspor
+                                    </p>
+
+                                    <p>
+                                        Lorem ipsum dolor sit amet, nobis laoreet appareat vis et, in aperiam vulputate nam. Harum malorum omittam no ius, eros autem
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid col-4 foot">
+                            <div class="content">
+                                <figure>
+                                    <img src="assets/img/content/img13.png" alt="content">
+                                </figure>
+                                <div class="description">
+                                    <p class="content-title">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing #GaPakePasspor
+                                    </p>
+
+                                    <p>
+                                        Lorem ipsum dolor sit amet, nobis laoreet appareat vis et, in aperiam vulputate nam. Harum malorum omittam no ius, eros autem
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="grid col-12">
+                            <div class="garuda">
+                                <img src="assets/img/garuda.png" alt="garuda">
+                            </div>
+                            
+                            <a href="#" class="terms-link">Terms and Condition</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </footer>
+    <!-- ======================================== End Footer Section ======================================== !-->
+    
+    </div>
+   
+    <script>
+    function openNav() {
+        document.getElementById("minimized").style.height  = "229px";
+        document.getElementById("minimized").style.padding = "65px 0 0 0";
+    }
+
+    function closeNav() {
+        document.getElementById("minimized").style.height  = "0";
+        document.getElementById("minimized").style.padding = "0";
+    }
+    </script>
+    
+    
+</body>
+</html>
